@@ -1,0 +1,53 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+.carousel-inner     {
+      background-color: #666666;
+  img{
+  //max-width: 100%;
+  margin: 0 auto;
+  }
+}
+.carousel-caption{
+  background-color: #000000;
+  opacity: 0.6;
+  margin:  auto;
+  margin-top: 30px;
+}
+.navbar{
+  padding-top: 5px;
+}
+
+
+
+//.thumbnail{
+// outline: 3px solid #5cb85c;
+// border-bottom: 3px  #47a447;
+//}
+
+#topper{
+  background-color: #000000;
+}
+
+.dropdown-menu li{
+  color: #000000;
+  background-color: #5bc0de;
+}
+
+
+.table {
+  th{
+  background-color: #000000;
+  color: #2d6ca2;;
+  }
+}
+
+.thumbnail{
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
